@@ -1,15 +1,16 @@
 local M = {}
 
--- M.general = {
---   n = {
---     ["+"] = {"<C-a", "Increment"},
---     ["-"] = {"<C-x", "Decrement"},
---   }
--- }
+M.inc_dec= {
+  n = {
+    ["+"] = {"<C-a", "Increment"},
+    ["-"] = {"<C-x", "Decrement"},
+  }
+}
 
---diasble these to enable tmux-navigatior mappings
+-- this is to disable default mappings found in core/mappings.lua
 M.disabled = {
   n = {
+--diasble these to enable tmux-navigatior mappings
     ["<C-h>"] = { "<C-w>h", "Window left" },
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
