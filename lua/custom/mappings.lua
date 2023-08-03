@@ -1,6 +1,12 @@
 local M = {
 
 }
+-- M.general = {
+--   n = {
+--     ["+"] = {"<C-a", "Increment"},
+--     ["-"] = {"<C-x", "Decrement"},
+--   }
+-- }
 
 M.dap = {
   plugin = true,
