@@ -6,7 +6,6 @@ M.inc_dec= {
     ["-"] = {"<C-x", "Decrement"},
   }
 }
-
 -- this is to disable default mappings found in core/mappings.lua
 M.disabled = {
   n = {
