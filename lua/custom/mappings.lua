@@ -1,11 +1,11 @@
 local M = {}
 
-M.inc_dec= {
-  n = {
-    ["+"] = {"<C-a", "Increment"},
-    ["-"] = {"<C-x", "Decrement"},
-  }
-}
+-- M.inc_dec= {
+--   n = {
+--     ["+"] = {"<C-a", "Increment"},
+--     ["-"] = {"<C-x", "Decrement"},
+--   }
+-- }
 -- this is to disable default mappings found in core/mappings.lua
 M.disabled = {
   n = {
