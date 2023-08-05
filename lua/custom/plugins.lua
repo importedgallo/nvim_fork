@@ -2,10 +2,11 @@ local plugins = {
 
   {
     "ThePrimeagen/harpoon",
-    dependencies = "nvim-lua/plenary.nvim",
+      dependencies ="nvim-lua/plenary.nvim",
   },
   {
    "dbinagi/nomodoro",
+    require('nomodoro').setup({})
   },
   {
     "rcarriga/nvim-dap-ui",
