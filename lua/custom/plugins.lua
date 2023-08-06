@@ -6,7 +6,6 @@ local plugins = {
   },
   {
    "dbinagi/nomodoro",
-    require('nomodoro').setup({})
   },
   {
     "rcarriga/nvim-dap-ui",
