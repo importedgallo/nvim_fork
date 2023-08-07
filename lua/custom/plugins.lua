@@ -46,6 +46,7 @@ local plugins = {
   },
   {
     "jose-elias-alvarez/null-ls.nvim",
+    event = "VeryLazy",
     ft = {"python"},
     opts = function()
       return require "custom.configs.null-ls"
@@ -61,12 +62,16 @@ local plugins = {
     "williamboman/mason.nvim",
     opts ={
       ensure_installed = {
+        --python
         "pyright",
         "ruff",
         "mypy",
         "black",
+        --debugger
         "debugpy",
-        "clangd"
+        --cpp
+        "clangd",
+        "clang-format",
       },
     },
   },
