@@ -66,6 +66,7 @@ local plugins = {
         "mypy",
         "black",
         "debugpy",
+        "clangd"
       },
     },
   },
