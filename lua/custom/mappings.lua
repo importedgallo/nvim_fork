@@ -14,8 +14,30 @@ M.disabled = {
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
+    ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
   }
 }
+
+-- M.MarkdownPreview = {
+--   plugin = true,
+--   n = {
+--     ["<leader><C-s>"] = {"<cmd> MarkdownPreview <CR>"}
+--   }
+-- }
+--
+-- M.MarkdownPreviewStop= {
+--   plugin = true,
+--   n = {
+--     ["<leader><C-q>"] = {"<cmd> MarkdownPreviewStop <CR>"}
+--   }
+-- }
+--
+-- M.MarkdownPreviewToggle = {
+--   plugin = true,
+--   n = {
+--     ["<leader><C-p>"] = {"<cmd> MarkdownPreviewToggle <CR>"}
+--   }
+-- }
 
 M.dap = {
   plugin = true,

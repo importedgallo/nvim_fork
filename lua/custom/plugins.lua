@@ -1,5 +1,13 @@
 local plugins = {
 
+-- {
+--   "iamcco/markdown-preview.nvim",
+--     event = "BufRead",
+--     build = function()
+--     vim.fn["mkdp#util#install"]()
+--   end,
+-- },
+
   {
     "ThePrimeagen/harpoon",
       dependencies ="nvim-lua/plenary.nvim",
